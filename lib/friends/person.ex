@@ -1,4 +1,4 @@
-defmodule Friends.Person do
+defmodule Friends.User do
   use Ecto.Schema
 
   @primary_key {:user_id, :id, autogenerate: true}
